@@ -1,0 +1,19 @@
+{
+  "name": "node-new-service",
+  "version": "0.0.1",
+  "description": "Node package generator for node-based init service applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/alexanderankin/node-new-service.git"
+  },
+  "author": "David Ankin <daveankin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexanderankin/node-new-service/issues"
+  },
+  "homepage": "https://github.com/alexanderankin/node-new-service#readme"
+}
