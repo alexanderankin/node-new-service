@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Node package generator for node-based init service applications",
   "main": "index.js",
+  "bin": {
+    "new-node-service": "bin/newNodeService.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/alexanderankin/node-new-service/issues"
   },
-  "homepage": "https://github.com/alexanderankin/node-new-service#readme"
+  "homepage": "https://github.com/alexanderankin/node-new-service#readme",
+  "dependencies": {
+    "colors": "^1.3.2",
+    "commander": "^2.18.0",
+    "ejs": "^2.6.1",
+    "prompt": "^1.0.0"
+  }
 }
