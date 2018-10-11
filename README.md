@@ -24,6 +24,8 @@ root.
 
 Don't be a stranger - file lots of bugs! Thanks.
 
+Of note, I use the Tj's "n" utility to manage node versions.
+
 ## Compatibility
 
 - [ ] Epoch
