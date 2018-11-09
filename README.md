@@ -13,6 +13,16 @@ install it.
 Not intended to be run as root, and works best with node that can be run as
 root.
 
+## Install
+
+```bash
+git clone https://github.com/alexanderankin/node-new-service.git
+cd node-new-service
+sudo npm link
+cd ~/my-app
+new-node-service
+```
+
 ## Future
 
 * refactor code to detect which startup system to use
